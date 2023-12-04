@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cookandroid.teamproject">
+
+    <application
+
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Teamproject">
+        <activity
+            android:name=".IntroMain"
+            android:screenOrientation="landscape"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".PianoMain"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".GuitarMain"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".DrumMain"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".SongActivity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".PianoChordSheetMain"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".GuitarChordSheetMain"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".RecodingMain"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".PianoCcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".PianoDcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".PianoEcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".PianoFcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".PianoGcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".PianoAcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".PianoBcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".GuitarAmcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".GuitarBcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".GuitarCcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".GuitarDcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".GuitarEmcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".GuitarFcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+
+        <activity
+            android:name=".GuitarGcode"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog">
+        </activity>
+    </application>
+
+</manifest>

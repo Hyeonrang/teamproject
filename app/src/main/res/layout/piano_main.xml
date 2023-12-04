@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:background="#0A5EA1"
+        android:layout_marginTop="30dp"
+        android:rotationX="10">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="70dp"
+            android:src="@drawable/codimgicon"
+            android:onClick="pianochordsheetCh"
+            >
+        </ImageView>
+
+
+        <Button
+            android:id="@+id/button_c"
+            android:layout_width="55dp"
+            android:layout_height="180dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="@color/white"
+            android:text="도"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_cc"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_c"
+            android:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/button_db"
+            android:layout_width="30dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_c"
+            android:backgroundTint="@color/black"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_d"
+            android:layout_width="55dp"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_db"
+            android:backgroundTint="@color/white"
+            android:text="레"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_dd"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_d"
+            android:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/button_eb"
+            android:layout_width="30dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_d"
+            android:backgroundTint="@color/black"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_e"
+            android:layout_width="55dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_eb"
+            android:backgroundTint="@color/white"
+            android:text="미"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_f"
+            android:layout_width="55dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_e"
+            android:backgroundTint="@color/white"
+            android:text="파"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_gb"
+            android:layout_width="30dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_f"
+            android:backgroundTint="@color/black"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_ff"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_f"
+            android:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/button_g"
+            android:layout_width="55dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_gb"
+            android:backgroundTint="@color/white"
+            android:text="솔"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_ab"
+            android:layout_width="30dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_g"
+            android:backgroundTint="@color/black"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_gg"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_g"
+            android:backgroundTint="@color/white" />
+
+        <Button
+            android:id="@+id/button_a"
+            android:layout_width="55dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_ab"
+            android:backgroundTint="@color/white"
+            android:text="라"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/button_bb"
+            android:layout_width="30dp"
+            android:layout_height="110dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_a"
+            android:backgroundTint="@color/black"
+            android:text=""
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button_bbb"
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_a"
+            android:backgroundTint="@color/white" />
+
+
+        <Button
+            android:id="@+id/button_b"
+            android:layout_width="55dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="30dp"
+            android:layout_toEndOf="@+id/button_bb"
+            android:backgroundTint="@color/white"
+            android:text="시"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+</LinearLayout>

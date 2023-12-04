@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/dragDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/guitarCbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="C코드">
+            </Button>
+
+            <Button
+                android:id="@+id/guitarDbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="D코드">
+            </Button>
+
+            <Button
+                android:id="@+id/guitarEmbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Em코드">
+            </Button>
+
+            <Button
+                android:id="@+id/guitarFbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="F코드">
+            </Button>
+
+            <Button
+                android:id="@+id/guitarGbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="G코드">
+            </Button>
+
+            <Button
+                android:id="@+id/guitarAmbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Am코드">
+            </Button>
+
+            <Button
+                android:id="@+id/guitarBbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B코드">
+            </Button>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="공백"></TextView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

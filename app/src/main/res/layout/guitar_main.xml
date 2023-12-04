@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A5EA1"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/codimgicon"
+        android:onClick="guitarchordsheetCh"
+        ></ImageView>
+
+    <LinearLayout
+        android:text="코드표"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_width="1000dp"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        />
+
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:rotationX="5"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:text="C"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+        <Button
+            android:id="@+id/button2"
+            android:text="D"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+        <Button
+            android:id="@+id/button3"
+            android:text="Em"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+        <Button
+            android:id="@+id/button4"
+            android:text="F"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+        <Button
+            android:id="@+id/button5"
+            android:text="G"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+        <Button
+            android:id="@+id/button6"
+            android:text="Am"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+        <Button
+            android:id="@+id/button7"
+            android:text="B"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>

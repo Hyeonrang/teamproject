@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/introText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:text="Maestro"
+            android:textColor="#FFFFFF"
+            android:textSize="70sp"></TextView>
+
+        <TextView
+            android:id="@+id/introText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="모바일 응용 6팀"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"></TextView>
+
+
+        <TextView
+            android:id="@+id/introText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="50dp"
+            android:text="201968004 조윤호 201968028 이우진"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/introText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="10dp"
+            android:text="202068011 이환희 202068026 김태빈"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"></TextView>
+
+
+    </LinearLayout>
+</LinearLayout>

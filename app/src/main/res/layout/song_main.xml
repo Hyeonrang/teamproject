@@ -1,0 +1,261 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- 왼쪽 영역 -->
+    <LinearLayout
+        android:id="@+id/leftContainer"
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+
+            android:rowCount="3"
+            android:columnCount="4">
+
+            <Button
+                android:id="@+id/button1_group1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="C" />
+
+            <!-- 버튼 2 -->
+            <Button
+                android:id="@+id/button2_group1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="D" />
+            <Button
+                android:id="@+id/button3_group1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="E" />
+            <Button
+                android:id="@+id/button4_group1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="F" />
+            <Button
+                android:id="@+id/button5_group1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="G" />
+            <Button
+                android:id="@+id/button6_group1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="A" />
+            <Button
+                android:id="@+id/button7_group1"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="B" />
+
+
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:rowCount="3"
+            android:columnCount="4">
+            <Button
+                android:id="@+id/button1_group2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="C" />
+            <Button
+                android:id="@+id/button2_group2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="D" />
+            <Button
+                android:id="@+id/button3_group2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="E" />
+            <Button
+                android:id="@+id/button4_group2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="F" />
+            <Button
+                android:id="@+id/button5_group2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="G" />
+            <Button
+                android:id="@+id/button6_group2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="A" />
+            <Button
+                android:id="@+id/button7_group2"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="B" />
+        </GridLayout>
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:rowCount="3"
+            android:columnCount="4">
+
+            <Button
+                android:id="@+id/button1_group3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="C" />
+
+            <Button
+                android:id="@+id/button2_group3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="H" />
+
+            <Button
+                android:id="@+id/button3_group3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="T" />
+
+            <Button
+                android:id="@+id/button4_group3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="K" />
+            <Button
+                android:id="@+id/button5_group3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="L" />
+            <Button
+                android:id="@+id/button6_group3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="M" />
+            <Button
+                android:id="@+id/button7_group3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="R" />
+            <Button
+                android:id="@+id/button8_group3"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+
+                android:text="S" />
+
+        </GridLayout>
+        <!-- 첫 번째 그룹의 버튼 -->
+
+
+        <!-- 버튼 1 -->
+
+        <!-- 나머지 버튼들 추가 -->
+
+
+        <!-- 나머지 그룹의 버튼 추가 -->
+
+    </LinearLayout>
+
+    <!-- 오른쪽 영역 -->
+    <LinearLayout
+        android:id="@+id/rightContainer"
+        android:layout_width="3000dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="200dp"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:rowCount="3"
+            android:columnCount="4">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="8dp"
+                android:visibility="invisible"
+                style="?android:attr/progressBarStyleHorizontal" />
+
+
+            <Button
+                android:id="@+id/button1_group4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="S" />
+
+
+
+        </GridLayout>
+
+        <GridLayout
+            android:id="@+id/track1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:rowCount="1"
+            android:columnCount="10">
+
+
+
+        </GridLayout>
+        <GridLayout
+            android:id="@+id/track2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:rowCount="1"
+            android:columnCount="10">
+
+        </GridLayout>
+        <GridLayout
+            android:id="@+id/track3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:rowCount="1"
+            android:columnCount="10">
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
