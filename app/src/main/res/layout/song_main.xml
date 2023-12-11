@@ -199,6 +199,24 @@
         android:layout_marginLeft="200dp"
         android:orientation="vertical">
 
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="저장"
+            android:layout_gravity="end|top"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <Button
+            android:id="@+id/webButton"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:text="웹 사이트"
+            android:layout_gravity="end|top"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp" />
+
         <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -214,17 +232,12 @@
                 android:visibility="invisible"
                 style="?android:attr/progressBarStyleHorizontal" />
 
-
             <Button
                 android:id="@+id/button1_group4"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:text="S" />
-
-
-
         </GridLayout>
-
         <GridLayout
             android:id="@+id/track1"
             android:layout_width="wrap_content"
@@ -232,9 +245,6 @@
             android:layout_weight="3"
             android:rowCount="1"
             android:columnCount="10">
-
-
-
         </GridLayout>
         <GridLayout
             android:id="@+id/track2"
@@ -252,10 +262,6 @@
             android:layout_weight="3"
             android:rowCount="1"
             android:columnCount="10">
-
         </GridLayout>
-
-
     </LinearLayout>
-
 </RelativeLayout>
